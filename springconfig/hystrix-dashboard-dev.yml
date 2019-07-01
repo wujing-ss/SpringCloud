@@ -3,8 +3,16 @@ spring:
   application:
     name: hystrix-dashboard
     
+  rabbitmq:
+    host: 192.168.145.132
+    port: 5672
+    username: wujing
+    password: 940306     
+    
 server:
   port: 4001
+  
+  
 
 eureka:
   client:
